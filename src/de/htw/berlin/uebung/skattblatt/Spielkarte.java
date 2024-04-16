@@ -1,3 +1,5 @@
+package de.htw.berlin.uebung.skattblatt;
+
 import java.util.Random;
 
 public class Spielkarte {
@@ -36,7 +38,7 @@ public class Spielkarte {
 
     @Override
     public String toString() {
-        return "Spielkarte{" +
+        return "de.htw.uebung.skattblatt.Spielkarte{" +
                 "wert=" + wert +
                 ", farbe=" + farbe +
                 '}';

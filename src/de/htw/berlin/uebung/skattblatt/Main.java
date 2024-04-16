@@ -1,3 +1,5 @@
+package de.htw.berlin.uebung.skattblatt;
+
 public class Main {
     public static void main(String[] args) {
 
