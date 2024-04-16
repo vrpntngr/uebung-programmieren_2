@@ -1,3 +1,3 @@
 public enum KartenFarbe {
-    HERZ, KARO, PIK, KREUZ;
+    HERZ, KARO, PIK, KREUZ
 }

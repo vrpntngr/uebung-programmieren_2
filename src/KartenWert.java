@@ -3,7 +3,7 @@ public enum KartenWert {
 
     private final int wert;
 
-    private KartenWert(int wert) {
+    KartenWert(int wert) {
         this.wert = wert;
     }
 
