@@ -22,7 +22,7 @@ public enum Zelle {
             }
         } else {
             // tote Zelle
-            if (anzahlLebendeNachbarn == 2) {
+            if (anzahlLebendeNachbarn == 3) { // es müssen 3 lebende Nachbarn sein damit eine Zelle zum Leben erwacht und nicht zwei
                 return Zelle.LEBENDIG;
             } else {
                 return Zelle.TOT;
