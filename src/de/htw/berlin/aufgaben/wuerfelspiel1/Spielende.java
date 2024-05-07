@@ -20,4 +20,9 @@ public class Spielende {
     public void addPunkte(int zwischenpunkte) {
         this.punktestand += zwischenpunkte;
     }
+
+    public int getPunktestand() {
+        return this.punktestand;
+    }
+
 }
