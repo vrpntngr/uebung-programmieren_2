@@ -10,4 +10,13 @@ public class Spieler {
         this.name = name;
         this.punktestand = 0;
     }
+
+    public int getPunktestand() {
+        return punktestand;
+    }
+
+    // aktualisiert den punktestand, in dem wir den zwischenpunktestand aus der methode versuch() dazu addieren
+    public void addZwischenpunktestand(int zwischenpunktestand) {
+        this.punktestand += zwischenpunktestand;
+    }
 }
