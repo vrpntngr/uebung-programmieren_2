@@ -1,4 +1,4 @@
-package de.htw.berlin.vorlesung.exceptions;
+package de.htw.berlin.vorlesung.nr05exceptions;
 
 import java.io.IOException;
 
