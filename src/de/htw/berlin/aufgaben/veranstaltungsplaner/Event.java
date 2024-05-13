@@ -1,4 +1,4 @@
-package de.htw.berlin.aufgaben.Veranstaltungsplaner;
+package de.htw.berlin.aufgaben.veranstaltungsplaner;
 
 class Event {
     // TODO Klassenvariablen (globale Variablen) für name, date und teilnehmer (Set) definieren

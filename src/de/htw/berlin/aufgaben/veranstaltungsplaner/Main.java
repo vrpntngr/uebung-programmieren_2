@@ -1,4 +1,4 @@
-package de.htw.berlin.aufgaben.Veranstaltungsplaner;
+package de.htw.berlin.aufgaben.veranstaltungsplaner;
 
 import java.util.List;
 
