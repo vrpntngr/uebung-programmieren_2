@@ -1,4 +1,4 @@
-package de.htw.berlin.vorlesung.tictactoe;
+package de.htw.berlin.vorlesung.nr01tictactoe;
 
 public class TicRacToeMain {
 
