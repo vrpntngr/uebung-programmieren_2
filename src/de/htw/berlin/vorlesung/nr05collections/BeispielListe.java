@@ -1,4 +1,4 @@
-package de.htw.berlin.vorlesung.collections.ausprobieren;
+package de.htw.berlin.vorlesung.nr05collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
