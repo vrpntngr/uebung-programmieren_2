@@ -1,7 +1,7 @@
 package de.htw.berlin.uebung.mitarbeiterverwaltung2;
 
 public class Main {
-    /*
+
     public static void main(String[] args) {
         EmployeeManager manager = new EmployeeManager();
         manager.addEmployee(101, "Alice", 2010);
@@ -17,9 +17,9 @@ public class Main {
         System.out.println("\nRemoving Employee ID 101:");
         manager.removeEmployee(101);
         manager.printAllEmployees();
-
+/*
         System.out.println("\nSorted by Year Joined:");
-        manager.sortEmployeesByYearJoined();
+        manager.sortEmployeesByYearJoined(); */
     }
-    */
+
 }
