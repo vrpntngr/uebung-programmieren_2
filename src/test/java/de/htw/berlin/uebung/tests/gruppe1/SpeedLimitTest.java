@@ -24,7 +24,6 @@ class SpeedLimitTest {
         assertEquals(0, actual);
     }
 
-    //caughtSpeeding(65, false) → 1	1	OK
     @Test
     public void speedIs61AndNoBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
@@ -70,7 +69,6 @@ class SpeedLimitTest {
         assertEquals(0, actual);
     }
 
-    //caughtSpeeding(65, false) → 1	1	OK
     @Test
     public void speedIs66AndBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
