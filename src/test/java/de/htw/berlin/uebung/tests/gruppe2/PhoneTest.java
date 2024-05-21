@@ -14,7 +14,6 @@ class PhoneTest {
         assertTrue(result);
     }
 
-    //answerCell(false, false, true) → false	false	OK
     @Test
     public void notMorningNotMumAndAsleep() {
         Phone phone = new Phone();
@@ -22,7 +21,6 @@ class PhoneTest {
         assertFalse(result);
     }
 
-    //answerCell(true, false, false) → false	false	OK
     @Test
     public void MorningNotMumAndNotAsleep() {
         Phone phone = new Phone();
@@ -30,7 +28,6 @@ class PhoneTest {
         assertFalse(result);
     }
 
-    //answerCell(true, true, false) → true	true	OK
     @Test
     public void MorningMumAndNotAsleep() {
         Phone phone = new Phone();
@@ -38,7 +35,6 @@ class PhoneTest {
         assertTrue(result);
     }
 
-    //answerCell(false, true, false) → true	true	OK
     @Test
     public void notMorningMumAndNotAsleep() {
         Phone phone = new Phone();
@@ -46,7 +42,6 @@ class PhoneTest {
         assertTrue(result);
     }
 
-    //answerCell(true, true, true) → false	false	OK
     @Test
     public void MorningMumAndAsleep() {
         Phone phone = new Phone();

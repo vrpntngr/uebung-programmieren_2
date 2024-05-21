@@ -15,6 +15,14 @@ class SpeedLimitTest {
         assertEquals(0, actual);
     }
 
+
+    //@Test
+    public void dummyTest() {
+        SpeedLimit speedLimit = new SpeedLimit();
+        int actual = speedLimit.caughtSpeeding(60, true);
+        assertEquals(-1, actual);
+    }
+
     @Test
     public void speedIs30AndNoBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();

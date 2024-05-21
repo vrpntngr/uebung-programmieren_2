@@ -88,6 +88,24 @@ class SpeedLimitTest {
     }
 
     @Test
+    public void speedIs86AndBirthday() {
+        SpeedLimit speedLimit = new SpeedLimit();
+
+        int actual = speedLimit.caughtSpeeding(86, true);
+
+        assertEquals(2, actual);
+    }
+
+    @Test
+    public void speedIs100AndBirthday() {
+        SpeedLimit speedLimit = new SpeedLimit();
+
+        int actual = speedLimit.caughtSpeeding(100, true);
+
+        assertEquals(2, actual);
+    }
+
+    @Test
     public void speedIs95AndBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
 
