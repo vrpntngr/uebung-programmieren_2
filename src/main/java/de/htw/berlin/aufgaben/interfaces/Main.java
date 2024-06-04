@@ -1,4 +1,4 @@
-package de.htw.berlin.aufgaben.interfeces;
+package de.htw.berlin.aufgaben.interfaces;
 
 public class Main {
 
