@@ -31,3 +31,4 @@ bin/
 /Skatblatt.iml
 /.idea/
 /Uebungen_Programmieren_2.iml
+/target/*
