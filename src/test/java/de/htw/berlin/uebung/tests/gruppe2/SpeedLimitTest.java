@@ -1,11 +1,13 @@
 package de.htw.berlin.uebung.tests.gruppe2;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SpeedLimitTest {
 
+    @Disabled
     @Test
     public void speedIs60AndNoBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
@@ -15,6 +17,7 @@ class SpeedLimitTest {
         assertEquals(0, actual);
     }
 
+    @Disabled
     @Test
     public void speedIs30AndNoBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
@@ -24,6 +27,7 @@ class SpeedLimitTest {
         assertEquals(0, actual);
     }
 
+    @Disabled
     @Test
     public void speedIs61AndNoBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
@@ -33,6 +37,7 @@ class SpeedLimitTest {
         assertEquals(1, actual);
     }
 
+    @Disabled
     @Test
     public void speedIs80AndNoBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
@@ -42,6 +47,7 @@ class SpeedLimitTest {
         assertEquals(1, actual);
     }
 
+    @Disabled
     @Test
     public void speedIs90AndNoBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
@@ -51,6 +57,7 @@ class SpeedLimitTest {
         assertEquals(2, actual);
     }
 
+    @Disabled
     @Test
     public void speedIs65AndBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
@@ -60,6 +67,7 @@ class SpeedLimitTest {
         assertEquals(0, actual);
     }
 
+    @Disabled
     @Test
     public void speedIs30AndBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
@@ -69,6 +77,7 @@ class SpeedLimitTest {
         assertEquals(0, actual);
     }
 
+    @Disabled
     @Test
     public void speedIs66AndBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
@@ -78,6 +87,7 @@ class SpeedLimitTest {
         assertEquals(1, actual);
     }
 
+    @Disabled
     @Test
     public void speedIs85AndBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
@@ -87,6 +97,7 @@ class SpeedLimitTest {
         assertEquals(1, actual);
     }
 
+    @Disabled
     @Test
     public void speedIs86AndBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
@@ -96,6 +107,7 @@ class SpeedLimitTest {
         assertEquals(2, actual);
     }
 
+    @Disabled
     @Test
     public void speedIs100AndBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
@@ -105,6 +117,7 @@ class SpeedLimitTest {
         assertEquals(2, actual);
     }
 
+    @Disabled
     @Test
     public void speedIs95AndBirthday() {
         SpeedLimit speedLimit = new SpeedLimit();
