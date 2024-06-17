@@ -3,15 +3,14 @@ package de.htw.berlin.aufgaben.interfaces;
 public class Main {
 
     public static void main(String[] args) {
-        /*
         final int NR_OF_STUDENTS = 5;
         Slack slack = new Slack();
-
+        System.out.println();
         Student[] students = new Student[NR_OF_STUDENTS];
         Character c = 'A';
         for(int index=0; index < students.length; index++)
         {
-            students[index] = new Student(c.toString());
+            students[index] = new Student(String.valueOf(c));
             c++;
             students[index].setPublisher(slack);
         }
@@ -36,7 +35,6 @@ public class Main {
         students[3].setPublisher(slack);
         System.out.println();
         slack.publishNews();
-         */
     }
 
     // Ausgabe sollte ungefähr so aussehen:
