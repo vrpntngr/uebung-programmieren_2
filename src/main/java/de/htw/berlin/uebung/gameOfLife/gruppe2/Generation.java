@@ -1,6 +1,4 @@
-package de.htw.berlin.uebung.gameOfLife;
-
-import java.util.Set;
+package de.htw.berlin.uebung.gameOfLife.gruppe2;
 
 public class Generation {
 
@@ -9,15 +7,6 @@ public class Generation {
     public Generation(int groesse) {
         this.generation = new Zelle[groesse][groesse];
         initialisieren();
-        ersteGenerationLebendigerZellen(); //Standardkonfiguration
-    }
-
-    public Generation(int groesse, Set<Koordinate> lebendigeZellen) {
-        this.generation = new Zelle[groesse][groesse];
-        initialisieren();
-        for (Koordinate k : lebendigeZellen) { //vereinfachte for schleife
-            generation[k.zeile()][k.spalte()] = Zelle.LEBENDIG;
-        }
     }
 
     private void initialisieren() {
@@ -26,9 +15,6 @@ public class Generation {
                 generation[zeile][spalte] = Zelle.TOT;
             }
         }
-    }
-
-    private void ersteGenerationLebendigerZellen() {
         generation[1][1] = Zelle.LEBENDIG;
         generation[2][1] = Zelle.LEBENDIG;
         generation[3][1] = Zelle.LEBENDIG;
@@ -52,7 +38,7 @@ public class Generation {
         generation = naechsteGeneration;
     }
 
-    int anzahlLebenderNachbar(int zeile, int spalte) {
+    private int anzahlLebenderNachbar(int zeile, int spalte) {
         int anzahlLebenderNachbar = 0;
         for (int pruefZeile = -1; pruefZeile <= 1; pruefZeile++) {
             for (int pruefSpalte = -1; pruefSpalte <= 1; pruefSpalte++) {
